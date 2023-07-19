@@ -1,0 +1,44 @@
+:root{
+    --bg-c:#82b0df;
+    --box-border:#37527d;
+    --box-c:#f39bc3;
+    --text-c:white;
+    --text-font:Brush Script MT,cursive;    
+
+}
+body{
+    background-color: var(--bg-c);
+    padding:1%;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    color: var(--text-c);
+    text-align: center;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    background-color: var(--box-border);
+    border-radius: 8px;
+    padding:20px;
+    display:flex;
+    flex-wrap: wrap;
+    height:95%;
+    width: 95%;
+
+}
+.item{
+    height: auto;
+    width: 250px;
+    background-color: var(--box-c);
+    margin: 20px;
+    border-radius: 8px;
+    font-family: var(--text-font); 
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}

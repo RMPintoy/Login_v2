@@ -1,0 +1,113 @@
+:root{
+    --form-bg-color:rgb(83, 84, 84, 0.5);
+    --btn-bg: rgb(235, 191, 47);
+    --btn-c: white;
+    --btn-hover: rgb(219, 172, 42);
+    --header-c: white;
+    --label-c: white;
+    --header-font:  Arial, Helvetica, sans-serif;
+    --btn-font:"Times New Roman", Times, serif;
+}
+
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    padding-bottom: -20px;
+    color:var(--header-c);
+    font-size: 40px;
+    font-family: var(--header-font);
+}
+
+.reg{
+    background-color: var(--form-bg-color);
+    position: center;
+    top: 30%;
+    width: 30%;
+    height: 60%;
+    border-radius: 25px;
+       
+}
+
+.log{
+    background-color: var(--form-bg-color);
+    position: center;
+    text-align: center;
+    width: 30%;
+    height: 380px;
+    border-radius: 25px;
+    margin:auto;       
+}
+
+.btn2{
+    height:20px;
+}
+
+.btn{
+    height:20px;
+}
+
+button{
+    background-color: var(--btn-bg);
+    padding: 5px;
+    font-size: 20px;
+    color:var(--btn-c);
+    width: 150px;
+    cursor: pointer;
+    font-family: var(--btn-font);
+    border: none;
+    border-radius: 8px;
+}
+
+.LabelR{
+    font-size: 15px;
+    color:var(--label-c);
+}
+
+.LabelL{
+    font-size: 25px;
+    color:var(--label-c);
+    margin-left:-60%;
+}
+
+form{
+    position:absolute;
+}
+
+.form{
+    height: 170px;
+    margin-left: 16%;
+    margin-top:-20px;
+}
+
+.inputlogin{
+   padding: 10px;
+   width: 250px;
+}
+
+input{
+    width: 60%;
+    text-align: center;
+
+}
+
+div{
+    padding: 5px;
+}
+
+button:hover{
+    background-color: var(--btn-hover);
+}
+
+a{
+    color:var(--btn-c);
+    text-decoration: none;
+}

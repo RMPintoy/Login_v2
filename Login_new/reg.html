@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/reg.css">
+        <script type = "text/javascript" src="pass.js"></script>
+    </head>
+
+    <body>
+        <div class="z">
+            <div class="log">
+                <h1>Sign in</h1>
+                <p>Don't have an account yet? <a class="b" href="https://workspace.google.com" target="blank">Sign up</a></p>
+                <form class="form">
+                    <div class="type" id="name">
+                        <input type="text" placeholder="First name" id="fname">
+                        <input type="text" placeholder="Last name" id="lname">
+                    </div>
+                    <div class="type">
+                        <input oninput="return formvlid()" type="text" placeholder="Email address" id="email">
+                    </div>
+                    <div class="type">
+                    <input oninput="return formvlid()" type="text" placeholder="Email address" id="email">
+                    </div>
+                    <div>
+                    <span class="type" id="vaild-email"></span>
+                    </div>
+                    <div class="type">
+                    <input oninput="return formvalid()" type="password" placeholder="Password" id="password">
+                    <img src="https://cdn2.iconfinder.com/data/icons/basic-ui-interface-v-2/32/hide-512.png"
+                        onclick="show()" id="showimg">  
+                    </div>
+                    <div>
+                    <span class="type" id="vaild-pass"></span>
+                    </div>
+                    <button type="submit" id="btn">Sign in with email</button>
+                </form> 
+            </div>
+        </div>
+    </body>
+</html>
